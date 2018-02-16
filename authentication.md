@@ -3,4 +3,4 @@ To be used inside of the Selenium script
 Username = ${username}
 Password = ${password}
 
-Create sepereate "username" and "password" variable row and input user credentials for application.
+Create separate "username" and "password" variable rows to input user credentials for application authentication. 
