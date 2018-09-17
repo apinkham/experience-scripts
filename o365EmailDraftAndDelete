@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+    <head profile="http://selenium-ide.openqa.org/profiles/test-case">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="selenium.base" />
+        <title>New Test</title>
+    </head>
+    
+    <body>
+        <table cellpadding="1" cellspacing="1" border="1">
+            <thead>
+                <tr>
+                    <td rowspan="1" colspan="3">New Test</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>open</td>
+                    <td>/</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForElementPresent</td>
+                    <td>id=idSIButton9</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>id=i0116</td>
+                    <td>${UserName}</td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>id=idSIButton9</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForElementNotPresent</td>
+                    <td>id=i0116</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForElementPresent</td>
+                    <td>id=i0118</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>id=i0118</td>
+                    <td>${Password}</td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>id=idSIButton9</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>id=idBtn_Back</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>milestone</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>id=ShellMail_link</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>clickAt</td>
+                    <td>id=ShellMail_link</td>
+                    <td>0,0</td>
+                </tr>
+                <tr>
+                    <td>milestone</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>selectActiveWindow</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>id=_ariaId_24</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>clickAt</td>
+                    <td>xpath=//button[@autoid=&quot;_fce_1&quot;]</td>
+                    <td>0,0</td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>xpath=//input[@aria-label=&quot;To&quot;]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>xpath=//input[@aria-label=&quot;To&quot;]</td>
+                    <td>appnetase@appnetase.onmicrosoft.com</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>xpath=//input[@aria-label=&quot;Subject,&quot;]</td>
+                    <td>AppNeta Test Email</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>xpath=//div[@aria-label=&quot;Message body&quot;]</td>
+                    <td>Testing for Tests</td>
+                </tr>
+                <tr>
+                    <td>clickAt</td>
+                    <td>xpath=//button[@autoid=&quot;_mcp_h&quot;]</td>
+                    <td>0,0</td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>//span[contains(text(),&quot;This message will be deleted.&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>//span[contains(text(),&quot;This message will be deleted.&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>milestone</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>xpath=//span[@title=&quot;Deleted Items&quot;]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>xpath=//span[contains(text(),&quot;Delete all&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>xpath=//span[contains(text(),&quot;Delete all&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>xpath=//span[contains(text(),&quot;OK&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>xpath=//span[contains(text(),&quot;OK&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>milestone</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>pause</td>
+                    <td>3000</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>clickAt</td>
+                    <td>xpath=//div[@class=&quot;o365cs-mfp-doughboy-container&quot;]</td>
+                    <td>0,0</td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>id=O365_SubLink_ShellSignout</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>click</td>
+                    <td>id=O365_SubLink_ShellSignout</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>milestone</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>waitForVisible</td>
+                    <td>xpath=//div[contains(text(),&quot;It&#39;s a good idea to close all&quot;)]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>milestone</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>
