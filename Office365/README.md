@@ -4,6 +4,7 @@ Target:
 - OneDrive Direct - https://[tenantname]-my.sharepoint.com
 - Sharepoint Direct - https://[tenantname].sharepoint.com
 - Teams Direct - https://teams.microsoft.com
+- Outlook Direct - https://outlook.office.com
 - Main Office365 Portal - https://login.microsoftonline.com (used for any of the scripts called "O365 <App Name> - Via App Launcher" as well as basic login scripts)
   
 Define Variables:
