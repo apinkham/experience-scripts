@@ -1,7 +1,7 @@
 For each script you'll need to define a target and variables. The required definitions are below:
 
 Target:
-- Gmail - mail.google.com
+- Gmail - https://mail.google.com
 - Google Drive - https://drive.google.com
   
 Define Variables:
