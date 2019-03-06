@@ -1,8 +1,8 @@
 For each script you'll need to define a target and variables. The required definitions are below:
 
 Target:
-- OneDrive Direct - https://<tenantname>-my.sharepoint.com
-- Sharepoint Direct - https://<tenantname>.sharepoint.com
+- OneDrive Direct - https://[tenantname]-my.sharepoint.com
+- Sharepoint Direct - https://[tenantname].sharepoint.com
 - Teams Direct - https://teams.microsoft.com
 - Main Office365 Portal - https://login.microsoftonline.com (used for any of the scripts called "O365 <App Name> - Via App Launcher" as well as basic login scripts)
   
