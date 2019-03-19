@@ -1,10 +1,11 @@
-Salesforce Log In
+For each script you'll need to define a target and variables. The required definitions are below:
 
-Target - https://{server or account name}.salesforce.com
+Target:
 
-Define
+Custom Salesforce Domain: https://{tenant}.my.salesforce.com
+Standard Salesforce Server: https://{server}.salesforce.com
 
-username - log in user name
+Define Variables: For all scripts these variables will need to be defined at the top of the workflow:
 
-password - log in password
-
+username - user name of login user
+password - password of login user
