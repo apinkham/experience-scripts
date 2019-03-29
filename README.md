@@ -6,5 +6,5 @@ The html files in each folder contain the script described by the title pre-form
 To insert the scripts, simply select the entire body of the appropriate .html file here in GitHub and copy that data to your clipboard. 
 
 
-<Need to add the rest of the steps on getting the newly created script into Experience>
+**Need to add the rest of the steps on getting the newly created script into Experience**
   Start from the perspective of a new Web App Group
