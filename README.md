@@ -2,7 +2,12 @@ Each folder contains a unique README.md file with specific details regarding the
 
 ![Image of Web App Group Creation](https://github.com/appneta/experience-scripts/blob/master/Images/Web%20App%20Group%20Target%20Example.png)
 
+![Image of Transposing the Target URL](https://github.com/appneta/experience-scripts/blob/master/Images/Transposing%20Target%20URL.png)
+
 The html files in each folder contain the script described by the title pre-formatted to be copy and pasted straight into the AppNeta Performance Manager Workflow creation screen. 
+
+**HOW TO USE THE SCRIPTS PROVIDED**
+
 To insert the scripts, simply select the entire body of the appropriate .html file here in GitHub and copy that data to your clipboard.
 
 ![Gif of Script Copy](https://github.com/appneta/experience-scripts/blob/master/Images/Copying%20the%20Script%20Large.gif)
@@ -30,7 +35,7 @@ Defining variables:
 
 *When defining variables, it is extremely critical that the name of the variable (i.e. username, password, etc) match the case of the variables listed in the script README.md files. The script will fail if the case and spelling do not match exactly.*
 
-
+![Image of Transposing Variables](https://github.com/appneta/experience-scripts/blob/master/Images/Transposing%20Variables.png)
 
 
 
