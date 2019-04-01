@@ -28,6 +28,9 @@ Defining variables:
 
 ![Gif of defining variables](https://github.com/appneta/experience-scripts/blob/master/Images/Defining%20Variables%20Large.gif)
 
+*When defining variables, it is extremely critical that the name of the variable (i.e. username, password, etc) match the case of the variables listed in the script README.md files. The script will fail if the case and spelling do not match exactly.*
+
+
 
 
 
